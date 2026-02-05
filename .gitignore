@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# Node
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+
+# Build output
+frontend/dist/
+
+# Docker
+*.log
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Geo data downloads
+geo/data/
+
+# ML model weights
+ml/model/weights/
+*.pt
+*.bin
+*.onnx
+
+# Database
+pgdata/
